@@ -1,14 +1,17 @@
 package dev.sara;
+import java.util.ArrayList;
+import java.util.List;
 
 public class Tabla {
     
-    public static void tablaMultiplicar(int n, int rang) {
+    public static List<String> generarTabla(int n) {
 
-        System.out.println("Output");
-        
-        for (int i = 3; i <= rang; i++) {
-            System.out.println(n + "x" + i + "=" + n * i);
+        List<String> tabla = new ArrayList<>();
+
+        for (int i = 1; i <= 10; i++) {
+            tabla.add(n + "x" + i + "=" + (n * i));
         }
+        return tabla;
     }
 
 }

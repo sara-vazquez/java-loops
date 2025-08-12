@@ -5,6 +5,6 @@ public final class App {
     }
 
     public static void main(String[] args) {
-        tablaMultiplicar(3,10);
+        Tabla.tablaMultiplicar(3);
     }
 }
