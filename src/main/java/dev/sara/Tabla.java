@@ -9,7 +9,7 @@ public class Tabla {
         List<String> tabla = new ArrayList<>();
 
         for (int i = 1; i <= 10; i++) {
-            tabla.add(n + "x" + i + "=" + (n * i));
+            tabla.add(n + " x " + i + " = " + (n * i));
         }
         return tabla;
     }
