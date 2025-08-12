@@ -2,11 +2,21 @@ package dev.sara;
 
 public class Tabla {
     
+    public static void tabla() {
+        int tabla = 1;
+        int multiplicador = 1;
+        int resultado = 0;
+
+        
+    }
+
 }
 
 
-/*Crea una clase que tenga la responsabilidad de crear la tabla de multiplicar de un número. Dado un número entero, n, devuelva su tabla de multiplicar (del 1 al 10).
-Cada múltiplo n * i (donde 1 <= i => 10) debe imprimirse en una nueva línea en la forma: n x i = resultado. (Tabla de multiplicación)
+/*Crea una clase que tenga la responsabilidad de crear la tabla de multiplicar de un número.
+Dado un número entero, n, devuelva su tabla de multiplicar (del 1 al 10).
+Cada múltiplo n * i (donde 1 <= i => 10) debe imprimirse en una nueva línea en la forma: 
+n x i = resultado. (Tabla de multiplicación)
 
 Ejemplo: dado n = 5
 
@@ -26,6 +36,7 @@ Requisito:
 
 La clase deberá ser testeada.
 Mínimo 70% de coverage
+
 Entregable:
 Repositorio de Github
 Captura de pantalla del coverage */
