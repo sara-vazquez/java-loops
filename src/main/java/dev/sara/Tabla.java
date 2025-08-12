@@ -2,12 +2,13 @@ package dev.sara;
 
 public class Tabla {
     
-    public static void tabla() {
-        int tabla = 1;
-        int multiplicador = 1;
-        int resultado = 0;
+    public static void tablaMultiplicar(int n, int rang) {
 
+        System.out.println("Output");
         
+        for (int i = 3; i <= rang; i++) {
+            System.out.println(n + "x" + i + "=" + n * i);
+        }
     }
 
 }
